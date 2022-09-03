@@ -1,0 +1,38 @@
+body{
+background-color: rgb(250, 249, 248);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+margin: 50 auto 80;
+display:flex;
+justify-items: flex-end;
+justify-content: flex-end;
+background-color: rgb(250, 247, 247);
+text-decoration: none;
+border-bottom: 1px black solid ;
+
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+.content{
+max-width: 960;
+margin: 0 auto;
+text-align: center;
+
+
+}
+
+nav a{
+  padding-left: 10px;
+}
+
+
+footer{
+margin-top: 1000px;
+display: block;
+
+}
