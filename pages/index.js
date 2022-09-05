@@ -5,11 +5,24 @@ import Footer from './components/footer'
 import Nav from './components/Nav'
 
 export default function Home() {
-  return (
+
+  return (<>
+  
+
+    <Head>
+
+<title> Home</title>
+<meta  name='keyword' content='somthing'  />
+    </Head>
+
     <div >
-      
-     <h1>Home</h1>
-     
+
+      <h1>Who is Pofendog?</h1>
+      <Image src="/pofen.jpg" width={700} height={600} />
+      <article>Here you will find some storry about Pofendog who is ...</article>
     </div>
+  </>
+
+
   )
 }

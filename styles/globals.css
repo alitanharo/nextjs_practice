@@ -2,6 +2,9 @@ body{
 background-color: rgb(250, 249, 248);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+
 nav{
 margin: 50 auto 80;
 display:flex;
@@ -32,7 +35,20 @@ nav a{
 
 
 footer{
-margin-top: 1000px;
+margin-top: 700px;
 display: block;
+color: darkgrey;
 
+}
+
+ .img{
+padding: 33px;
+}
+
+p{
+ color:black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+  text-align: justify;
+  margin:30px;
 }
